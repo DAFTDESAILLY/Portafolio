@@ -77,4 +77,25 @@ export const ContainerIcons = styled.div`
     justify-content: center;
   }
 `;
-    
+
+
+
+export const ContainerImage = styled.div`
+  text-align: center;
+  max-width: 250px;
+
+  img {
+    width: 250px;
+    border-radius: 50%;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 10px 0;
+    margin: 0 auto;
+
+    img {
+      width: 100%;
+    }
+  }
+`;
