@@ -101,3 +101,15 @@ p{
 export const Description = styled.div`
 margin-top:0;
 `;
+export const ContainerFooter = styled.div`
+  display: flex;
+  margin-top: 10px;
+
+  img {
+    width: 35px;
+  }
+
+  a:first-of-type { 
+    padding: 0 20px;
+  }
+`;
