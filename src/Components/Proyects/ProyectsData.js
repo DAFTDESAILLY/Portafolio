@@ -13,6 +13,7 @@ import gasolineraProject from "../../images/projects/gasolinera.jpg";
 import marvelProject from "../../images/projects/marvel.jpg";
 import rickMorty from "../../images/projects/rick-morty.jpg";
 import tareasProject from "../../images/projects/todo.jpg";
+import cartapp from "../../images/projects/carapp.png";
 
 export const projectsportfolio=[
     {
@@ -23,9 +24,9 @@ export const projectsportfolio=[
           { name: "CSS", src: cssImage },
         ],
         description:
-          "Application created with React JS and CSS to make a request an external API of Rick & Morty.",
+        "Aplicación creada con React JS y CSS para realizar una solicitud a una API externa de Rick & Morty.",
         repository: "https://github.com/DAFTDESAILLY/Rick-Morty",
-        website: "#!",
+        website: "https://iridescent-muffin-042838.netlify.app/",
       },
       {
         title: "Note App",
@@ -35,9 +36,9 @@ export const projectsportfolio=[
           { name: "Semantic UI React", src: semanticImage },
         ],
         description:
-          "Application created with React JS and Semantic UI to make a list of tasks where you can add or remove it.",
+        "Aplicación creada con React JS y Semantic UI para crear una lista de tareas donde puedes agregar o eliminar tareas.",
         repository: "https://github.com/DAFTDESAILLY/note-app",
-        website: "#!",
+        website: "https://gregarious-churros-53347d.netlify.app/",
       },
       {
         title: "Estacion de gasolina",
@@ -48,13 +49,13 @@ export const projectsportfolio=[
           { name: "React Router DOM", src: reactRouterdomImage },
         ],
         description:
-          "Application created with Vite where you can save the information and see it on a summary",
+        "Aplicación creada con Vite donde puedes guardar información y verla en un resumen.",
         repository: "https://github.com/DAFTDESAILLY/gasolinera",
-        website: "#!",
+        website: "https://eclectic-biscochitos-73c570.netlify.app",
       },
       {
         title: "Cart App",
-        image: gasolineraProject,
+        image: cartapp,
         techs: [
           { name: "Vite", src: viteImage },
           { name: "Chakra", src: chakraImage },

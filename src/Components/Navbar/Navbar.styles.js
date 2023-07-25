@@ -86,7 +86,7 @@ cursor: pointer;
 }
 `;
 
-export const ContainerBurger = styled.div`
+export const ContainerBurguer = styled.div`
     display:none;
 
     @media(max-width:768px){
@@ -94,7 +94,7 @@ export const ContainerBurger = styled.div`
     }
 `;
 
-export const BurgerMenu = styled.div`
+export const BurguerMenu = styled.div`
 width:35px;
 height:2px;
 background-color:${colors.TEXT_BLACK};

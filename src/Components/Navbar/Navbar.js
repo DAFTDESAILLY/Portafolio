@@ -18,12 +18,11 @@ function Navbar() {
         </div>
       </S.ContainerLogo>
 
-      <S.ContainerBurger onClick={() => setShowMenuBurguer(!showMenuBurguer)}>
-        <S.BurgerMenu />
-        <S.BurgerMenu />
-        <S.BurgerMenu />
-        
-      </S.ContainerBurger>
+      <S.ContainerBurguer onClick={() => setShowMenuBurguer(!showMenuBurguer)}>
+        <S.BurguerMenu />
+        <S.BurguerMenu />
+        <S.BurguerMenu />    
+      </S.ContainerBurguer>
 
       <S.ContainerItems showMenuBurguer={showMenuBurguer}>
         <p onClick={() => clickItemNav("about-me")}>About me</p>
