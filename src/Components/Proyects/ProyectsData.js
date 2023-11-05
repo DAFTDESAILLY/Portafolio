@@ -14,8 +14,21 @@ import marvelProject from "../../images/projects/marvel.jpg";
 import rickMorty from "../../images/projects/rick-morty.jpg";
 import tareasProject from "../../images/projects/todo.jpg";
 import cartapp from "../../images/projects/carapp.png";
+import backdropsbliss from "../../images/projects/Backdropsbliss_img.jpg";
 
 export const projectsportfolio=[
+    {
+      title: "BackdropsBliss",
+      image: backdropsbliss,
+      techs: [
+       
+      ],
+      description:
+      "Esta es una aplicacion de Wallpaper echa para celulares android programada con java",
+      repository: "https://github.com/DAFTDESAILLY/BackdropsBliss",
+      website: "https://backdropsbliss.netlify.app/",
+      
+    },
     {
         title: "Rick & Morty API",
         image: rickMorty,
